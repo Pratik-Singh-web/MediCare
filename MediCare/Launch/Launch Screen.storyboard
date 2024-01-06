@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cY-iz-eu9">
+                                <rect key="frame" x="71.666666666666686" y="151" width="250" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="3i4-Nc-jqI"/>
+                                    <constraint firstAttribute="width" constant="250" id="J3P-Aa-upx"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="India's No. 1 Medical App">
+                                        <attributes>
+                                            <color key="NSColor" red="0.2901961207" green="0.37254902719999999" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="30" name="STIXTwoText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MediCare" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="60" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+                                <rect key="frame" x="46.666666666666657" y="641" width="300" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="b1v-EZ-EXg"/>
+                                    <constraint firstAttribute="width" constant="300" id="fhn-oX-rgN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="61"/>
+                                <color key="textColor" red="0.28934520749999998" green="0.37254902719999999" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvx-9E-TjL">
+                                <rect key="frame" x="46.666666666666657" y="711" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="e3L-eJ-pHm"/>
+                                    <constraint firstAttribute="width" constant="300" id="jW0-9R-tOr"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Aapke Ghar ka Pharmacist">
+                                        <attributes>
+                                            <color key="NSColor" red="0.2901961207" green="0.37254902719999999" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="27"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" red="0.28934520749999998" green="0.37254902719999999" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MediCareIcon" translatesAutoresizingMaskIntoConstraints="NO" id="2IN-Mo-N4v">
+                                <rect key="frame" x="0.0" y="226" width="393" height="400"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2IN-Mo-N4v" firstAttribute="top" secondItem="5cY-iz-eu9" secondAttribute="bottom" id="0Jj-ZI-lV5"/>
+                            <constraint firstItem="2IN-Mo-N4v" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5q9-Ug-ICT"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="2IN-Mo-N4v" secondAttribute="bottom" constant="15" id="7Mx-Vd-TiP"/>
+                            <constraint firstItem="2IN-Mo-N4v" firstAttribute="centerX" secondItem="GJd-Yh-RWb" secondAttribute="centerX" id="7xc-QU-R6C"/>
+                            <constraint firstItem="Mvx-9E-TjL" firstAttribute="top" secondItem="GJd-Yh-RWb" secondAttribute="bottom" id="BY1-OU-1w0"/>
+                            <constraint firstItem="5cY-iz-eu9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="QRr-rh-MIJ"/>
+                            <constraint firstItem="2IN-Mo-N4v" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="167" id="Z5s-iU-apn"/>
+                            <constraint firstAttribute="trailing" secondItem="2IN-Mo-N4v" secondAttribute="trailing" id="gee-NA-3PH"/>
+                            <constraint firstItem="2IN-Mo-N4v" firstAttribute="centerX" secondItem="Mvx-9E-TjL" secondAttribute="centerX" id="jhm-fR-Ijl"/>
+                            <constraint firstItem="2IN-Mo-N4v" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="qp3-2B-tex"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MediCareIcon" width="1024" height="1024"/>
+    </resources>
+</document>

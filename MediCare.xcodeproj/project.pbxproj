@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		70E5C6EF2B49299E00F5F63C /* MediCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E5C6EE2B49299E00F5F63C /* MediCareApp.swift */; };
-		70E5C6F12B49299E00F5F63C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E5C6F02B49299E00F5F63C /* ContentView.swift */; };
+		70E5C6F12B49299E00F5F63C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E5C6F02B49299E00F5F63C /* HomeView.swift */; };
 		70E5C6F32B49299F00F5F63C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E5C6F22B49299F00F5F63C /* Assets.xcassets */; };
 		70E5C6F62B49299F00F5F63C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E5C6F52B49299F00F5F63C /* Preview Assets.xcassets */; };
 		70E5C7002B49299F00F5F63C /* MediCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E5C6FF2B49299F00F5F63C /* MediCareTests.swift */; };
 		70E5C70A2B49299F00F5F63C /* MediCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E5C7092B49299F00F5F63C /* MediCareUITests.swift */; };
 		70E5C70C2B49299F00F5F63C /* MediCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E5C70B2B49299F00F5F63C /* MediCareUITestsLaunchTests.swift */; };
+		70E5C7242B494DB500F5F63C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E5C7232B494DB500F5F63C /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		70E5C6EB2B49299E00F5F63C /* MediCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E5C6EE2B49299E00F5F63C /* MediCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediCareApp.swift; sourceTree = "<group>"; };
-		70E5C6F02B49299E00F5F63C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70E5C6F02B49299E00F5F63C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		70E5C6F22B49299F00F5F63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70E5C6F52B49299F00F5F63C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70E5C6FB2B49299F00F5F63C /* MediCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		70E5C7052B49299F00F5F63C /* MediCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E5C7092B49299F00F5F63C /* MediCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediCareUITests.swift; sourceTree = "<group>"; };
 		70E5C70B2B49299F00F5F63C /* MediCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70E5C7232B494DB500F5F63C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +96,9 @@
 		70E5C6ED2B49299E00F5F63C /* MediCare */ = {
 			isa = PBXGroup;
 			children = (
-				70E5C7182B4929B800F5F63C /* HomeScreen */,
-				70E5C6EE2B49299E00F5F63C /* MediCareApp.swift */,
-				70E5C6F02B49299E00F5F63C /* ContentView.swift */,
-				70E5C6F22B49299F00F5F63C /* Assets.xcassets */,
+				70E5C7292B495A3C00F5F63C /* Others */,
+				70E5C7282B4959E900F5F63C /* Home */,
+				70E5C7252B4957F400F5F63C /* Launch */,
 				70E5C6F42B49299F00F5F63C /* Preview Content */,
 			);
 			path = MediCare;
@@ -128,11 +129,29 @@
 			path = MediCareUITests;
 			sourceTree = "<group>";
 		};
-		70E5C7182B4929B800F5F63C /* HomeScreen */ = {
+		70E5C7252B4957F400F5F63C /* Launch */ = {
 			isa = PBXGroup;
 			children = (
+				70E5C7232B494DB500F5F63C /* Launch Screen.storyboard */,
 			);
-			path = HomeScreen;
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		70E5C7282B4959E900F5F63C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				70E5C6F02B49299E00F5F63C /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		70E5C7292B495A3C00F5F63C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				70E5C6F22B49299F00F5F63C /* Assets.xcassets */,
+				70E5C6EE2B49299E00F5F63C /* MediCareApp.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E5C7242B494DB500F5F63C /* Launch Screen.storyboard in Resources */,
 				70E5C6F62B49299F00F5F63C /* Preview Assets.xcassets in Resources */,
 				70E5C6F32B49299F00F5F63C /* Assets.xcassets in Resources */,
 			);
@@ -265,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70E5C6F12B49299E00F5F63C /* ContentView.swift in Sources */,
+				70E5C6F12B49299E00F5F63C /* HomeView.swift in Sources */,
 				70E5C6EF2B49299E00F5F63C /* MediCareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +451,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +481,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
