@@ -94,6 +94,7 @@
 		70E5C6ED2B49299E00F5F63C /* MediCare */ = {
 			isa = PBXGroup;
 			children = (
+				70E5C7182B4929B800F5F63C /* HomeScreen */,
 				70E5C6EE2B49299E00F5F63C /* MediCareApp.swift */,
 				70E5C6F02B49299E00F5F63C /* ContentView.swift */,
 				70E5C6F22B49299F00F5F63C /* Assets.xcassets */,
@@ -125,6 +126,13 @@
 				70E5C70B2B49299F00F5F63C /* MediCareUITestsLaunchTests.swift */,
 			);
 			path = MediCareUITests;
+			sourceTree = "<group>";
+		};
+		70E5C7182B4929B800F5F63C /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
